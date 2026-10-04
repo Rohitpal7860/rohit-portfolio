@@ -1,16 +1,83 @@
-# React + Vite
+ Rohit Pal - Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, highly interactive, and fully responsive personal portfolio website built to showcase my skills, projects, and achievements in Software Development, Artificial Intelligence, and Data Science.
 
-Currently, two official plugins are available:
+🔗 View Live Website (Update this link if your Vercel URL is different)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+✨ Features
 
-## React Compiler
+Dark & Light Mode: Fully integrated theme toggling using Tailwind CSS class strategy.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Scroll Animations: Custom intersection observers for smooth "reveal-on-scroll" element transitions.
 
-## Expanding the ESLint configuration
+Typewriter Effect: Dynamic text typing animation on the hero section.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Interactive UI/UX: Advanced hover states, floating elements, glassmorphism (backdrop blurs), and tooltip popups.
+
+Dynamic Sections: Dedicated areas for Skills, Professional Experience, Featured Projects, Education, and Certifications (with viewable proofs).
+
+Responsive Design: Flawlessly adapts to mobile, tablet, and desktop screens.
+
+🛠️ Tech Stack
+
+Frontend Framework: React.js
+
+Build Tool: Vite (Lightning fast Hot Module Replacement)
+
+Styling: Tailwind CSS v4 (Using the new high-performance engine)
+
+Icons: Lucide React
+
+Hosting/Deployment: Vercel
+
+Version Control: Git & GitHub
+
+💻 How to Run Locally
+
+If you want to download and run this project on your own machine:
+
+Clone the repository:
+
+git clone https://github.com/Rohitpal7860/rohit-portfolio.git
+
+
+Navigate into the project directory:
+
+cd rohit-portfolio
+
+
+Install dependencies:
+(Ensure you have Node.js installed)
+
+npm install
+
+
+Start the development server:
+
+npm run dev
+
+
+Open in Browser:
+Click the local link provided in your terminal (usually http://localhost:5173).
+
+📁 Project Structure highlights
+
+src/App.jsx - The main application containing all UI components and logic.
+
+src/index.css - Global stylesheet initializing Tailwind CSS v4.
+
+public/ - Contains static assets like the profile photo, resume PDF, and certificate images.
+
+tailwind.config.js - Configuration for Tailwind CSS, including dark mode settings.
+
+📫 Connect With Me
+
+LinkedIn: Rohit Pal
+
+GitHub: @Rohitpal7860
+
+LeetCode: Rohit7860
+
+Email: rp738331@gmail.com
+
+Built with ❤️ by Rohit Pal using React & Tailwind.
